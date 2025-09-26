@@ -112,6 +112,10 @@ AI models deployed on cloud infrastructure services where organizations have con
 - Secure model storage
 - GPU security considerations
 
+### Model Security Note
+
+Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT variants) rather than building and training custom models from scratch. The model provider has built-in protections against extraction attacks and other model-level vulnerabilities, while the customer handles deployment security, access controls, storage protection, and other related aspects.
+
 ---
 
 ## 4. On-Premises AI Models
@@ -141,6 +145,10 @@ AI systems deployed entirely on internal hardware within the organization's data
 - Complete security stack management
 - Disaster recovery planning
 - Isolated network requirements
+
+### Model Security Note
+
+Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT variants) rather than building and training custom models from scratch. The model provider has built-in protections against extraction attacks and other model-level vulnerabilities, while the customer handles deployment security, access controls, storage protection, and other related aspects.
 
 ---
 
