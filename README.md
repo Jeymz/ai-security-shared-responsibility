@@ -36,10 +36,10 @@ Whether you're using ChatGPT, building custom models, or deploying autonomous ag
 
 | **If you are a...** | **Start here** | **Focus on** |
 |:---:|:---:|:---|
-| 🎯 **Security Leader** | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
-| 🤖 **AI Practitioner** | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
-| 🏗️ **Architect** | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
-| 🚀 **Getting Started** | [This Section](#getting-started) | Step-by-step implementation guide |
+| **Security Leader** | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
+| **AI Practitioner** | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
+| **Architect** | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
+| **Getting Started** | [This Section](#getting-started) | Step-by-step implementation guide |
 
 </div>
 
@@ -72,10 +72,10 @@ Other frameworks assume you already know your deployment model and have organiza
 
 ### Key Principles
 
-- 🔒 **No deployment is responsibility-free** - Even SaaS requires customer security efforts
-- 📈 **Control = Responsibility** - More control means more security obligations
-- 🤝 **Shared requires coordination** - Both parties must fulfill their parts
-- ⚡ **New domains matter now** - Agent governance isn't a future problem
+- **No deployment is responsibility-free** - Even SaaS requires customer security efforts
+- **Control = Responsibility** - More control means more security obligations
+- **Shared requires coordination** - Both parties must fulfill their parts
+- **New domains matter now** - Agent governance isn't a future problem
 
 ## Getting Started
 
@@ -127,13 +127,6 @@ Comprehensive coverage across traditional and emerging AI security areas:
 - **Multi-System Integration Security** - Cross-system AI orchestration
 
 [→ Full security domains guide](framework/security-domains.md)
-
-## Key Principles
-
-- **No deployment model is responsibility-free** - Even fully managed SaaS requires customer security efforts
-- **Responsibilities increase with control** - More control = more security obligations
-- **Shared means coordination** - Both parties must fulfill their parts
-- **New domains matter now** - Agent governance and context pollution aren't future problems
 
 Securing an AI system is a multi-faceted challenge that requires attention to various domains and usage states. As the deployment models evolve, so too will these focus areas.
 
