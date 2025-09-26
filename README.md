@@ -1,64 +1,132 @@
+<div align="center">
+
+<img src="./resources/images/AI Shared Responsibility Model.png" alt="AI Security Shared Responsibility Model Matrix" width="800"/>
+
 # AI Security Shared Responsibility Model
 
+![Static Badge](https://img.shields.io/badge/mission-clarify_AI_security_ownership-8B5CF6)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/mikeprivette/ai-security-shared-responsibility/releases)
 
+### Clear security ownership for every AI deployment model
+
+**[Quick Start](#quick-start) • [Framework](#the-framework) • [Deployment Models](#8-deployment-models) • [Security Domains](#16-security-domains) • [About](#about)**
+
+</div>
+
+---
+
+## The Problem
+
+AI is transforming industries at unprecedented pace, but security ownership remains unclear. Organizations deploying AI systems—from simple ChatGPT usage to complex custom models—lack clarity on who's responsible for what.
+
+This gap creates risk. Without clear ownership boundaries, critical security tasks fall through the cracks. Data governance, model security, and compliance requirements become nobody's responsibility—until something goes wrong.
+
+The shared responsibility model solved this for cloud computing. Now AI needs the same clarity.
+
 ## What This Is
 
-A framework for understanding who's responsible for what when deploying AI systems. Just as cloud computing needed a shared responsibility model, AI deployments need clear security ownership delineation.
+A framework for understanding security responsibilities across AI deployments. Like cloud computing's shared responsibility model, this framework maps who owns what across **8 deployment models** and **16 security domains**.
 
-The framework maps security responsibilities across 8 deployment models and 16 security domains, helping organizations understand their obligations whether using ChatGPT, building custom models, or anything in between.
+Whether you're using ChatGPT, building custom models, or deploying autonomous agents, this framework shows exactly what you're responsible for—and what your providers handle.
 
-## The Need for a Shared Responsibility Model
+## Quick Start
 
-AI is transforming industries at an unprecedented pace, but with great power comes great responsibility.
+<div align="center">
 
-Shared responsibility, that is.
+| **If you are a...** | **Start here** | **Focus on** |
+|:---:|:---:|:---|
+| 🎯 **Security Leader** | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
+| 🤖 **AI Practitioner** | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
+| 🏗️ **Architect** | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
+| 🚀 **Getting Started** | [This Section](#getting-started) | Step-by-step implementation guide |
 
-Enter the shared responsibility model for AI security—a framework designed to clarify the division of security responsibilities between AI service providers and the businesses that use them. This framework was designed to help security practitioners navigate the complex landscape of AI deployments in the current state of the world.
-
-The shared responsibility model is not a new concept; it's been a cornerstone in cloud security for years. However, its application to AI security is relatively novel.
-
-The idea is simple: both the service provider and the user have roles to play in securing AI systems. This division of labor ensures that all aspects of security are covered, reducing the risk of vulnerabilities and breaches.
-
-As businesses increasingly adopt AI technologies, understanding and managing the associated risks is table stakes.
+</div>
 
 ## Why This Framework vs Others
 
-While frameworks from NIST, CSA, and Microsoft provide excellent technical depth for mature AI implementations, this framework serves a different purpose: **getting everyone on the same page first**.
+Think of this as your **Day 1 framework**—what you need before diving into technical specifications.
 
-Think of this as your **Day 1 framework** - what you need to understand before diving into technical specifications. Other frameworks assume you already have organizational alignment and are deep into AI development. This framework helps you **build that alignment**.
+| **Framework** | **Best For** | **When to Use** | **Limitation** |
+|:---|:---|:---|:---|
+| **🎯 This Framework** | Initial alignment & planning | Before deployment decisions | Less technical depth |
+| **NIST AI RMF** | Comprehensive risk management | Mature AI programs | Assumes AI maturity |
+| **CSA Models** | Cloud-specific implementations | Azure/AWS deployments | Too narrow for full AI landscape |
+| **Microsoft Approach** | Azure ecosystem | Technical implementation | Vendor-specific |
 
-It's not that other frameworks are wrong - they're essential for later stages. But they're not where you start.
-
-**Framework Comparisons:**
-- **NIST AI RMF**: Excellent for risk management in established AI programs, but assumes significant AI maturity
-- **CSA Models**: Great for cloud-specific implementations, but too narrow for the full AI landscape
-- **Microsoft's Approach**: Comprehensive for Azure users, but vendor-specific and technically dense
-- **This Framework**: Vendor-agnostic, deployment-model focused, speaks business language first
+Other frameworks assume you already know your deployment model and have organizational alignment. This framework helps you **build that alignment first**.
 
 ## The Framework
 
 ### Core Components
 
-- **[8 Deployment Models](framework/deployment-models.md)** - From SaaS AI to on-premises, agentic systems to coding assistants. Detailed descriptions of each model and when to use them.
-- **[16 Security Domains](framework/security-domains.md)** - Traditional security areas (1-12) plus emerging AI-specific domains (13-16, marked with ★). Comprehensive coverage of all security aspects.
-- **[Responsibility Matrix](framework/responsibility-matrix.md)** - Complete 8x16 mapping showing who's responsible for what across every deployment model and security domain.
+<div align="center">
 
-### Quick Navigation
+| **Component** | **What It Covers** | **Key Insight** |
+|:---:|:---|:---|
+| **[8 Deployment Models](framework/deployment-models.md)** | From SaaS to on-premises, agents to assistants | Each model has distinct security boundaries |
+| **[16 Security Domains](framework/security-domains.md)** | Traditional + AI-specific (marked with ★) | New domains like agent governance are critical now |
+| **[Responsibility Matrix](framework/responsibility-matrix.md)** | Complete 8x16 mapping | Visual guide to all responsibilities |
 
-| If you're a... | Start here |
-|----------------|------------|
-| **Security Leader** | [Responsibility Matrix](framework/responsibility-matrix.md) |
-| **AI Practitioner** | [Deployment Models](framework/deployment-models.md) |
-| **Architect** | [Security Domains](framework/security-domains.md) |
+</div>
+
+### Key Principles
+
+- 🔒 **No deployment is responsibility-free** - Even SaaS requires customer security efforts
+- 📈 **Control = Responsibility** - More control means more security obligations
+- 🤝 **Shared requires coordination** - Both parties must fulfill their parts
+- ⚡ **New domains matter now** - Agent governance isn't a future problem
 
 ## Getting Started
 
-1. **Identify** your AI deployment model(s) using the [deployment models guide](framework/deployment-models.md)
-2. **Check** the [responsibility matrix](framework/responsibility-matrix.md) for your obligations
-3. **Review** the [security domains](framework/security-domains.md) to understand coverage areas
-4. **Plan** improvements based on identified gaps
+1. **📍 Identify** your AI deployment model(s) using the [deployment models guide](framework/deployment-models.md)
+2. **✅ Check** the [responsibility matrix](framework/responsibility-matrix.md) for your obligations
+3. **📋 Review** the [security domains](framework/security-domains.md) to understand coverage areas
+4. **🎯 Plan** improvements based on identified gaps
+
+## 8 Deployment Models
+
+Comprehensive coverage from simple SaaS to complex autonomous systems:
+
+### Cloud-Based Models
+1. **SaaS AI Models** - ChatGPT, Claude, Gemini (Public & Private)
+2. **PaaS AI Models** - Azure OpenAI, AWS Bedrock, Google AI Platform
+3. **IaaS AI Models** - Custom models on cloud infrastructure
+
+### Self-Managed & Specialized
+4. **On-Premises AI Models** - Local LLMs, air-gapped systems
+5. **SaaS Products with Embedded AI** - Salesforce Einstein, MS Copilot
+6. **Agentic AI Systems** - Autonomous multi-agent configurations
+7. **AI Coding Assistants** - GitHub Copilot, Cursor, Claude Code
+8. **MCP-Based Systems** - Persistent memory & context systems
+
+[→ Full deployment models guide](framework/deployment-models.md)
+
+## 16 Security Domains
+
+Comprehensive coverage across traditional and emerging AI security areas:
+
+**Traditional Domains (1-12)**
+- Application Security
+- AI Ethics and Safety
+- Model Security
+- User Access Control
+- Data Privacy
+- Data Security
+- Monitoring and Logging
+- Compliance and Governance
+- Supply Chain Security
+- Network Security
+- Infrastructure Security
+- Incident Response
+
+**Emerging AI Domains (13-16)** ★
+- **Agent Governance** - Control of autonomous AI agents
+- **Code Generation Security** - AI-generated code protection
+- **Context Pollution Protection** - Preventing false information injection
+- **Multi-System Integration Security** - Cross-system AI orchestration
+
+[→ Full security domains guide](framework/security-domains.md)
 
 ## Key Principles
 
