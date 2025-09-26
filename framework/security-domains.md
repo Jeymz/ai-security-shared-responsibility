@@ -54,6 +54,8 @@ Domains 1-12 are traditional security areas adapted for AI systems, while domain
 - Explainability requirements
 - Human oversight mechanisms
 
+**Key Principle**: Ethics and safety are inherently shared because providers ensure base model safety and training ethics, while customers are responsible for appropriate use case selection, deployment context, and ongoing ethical usage. Even in provider-managed models, customers choose how to apply the AI.
+
 ---
 
 ### 3. User Access Control
@@ -76,6 +78,8 @@ Domains 1-12 are traditional security areas adapted for AI systems, while domain
 - Training data access controls
 - Prompt history protection
 - API key management
+
+**Key Principle**: While providers may supply authentication mechanisms and IAM tools, the customer always owns the fundamental decisions about WHO in their organization gets access and at WHAT permission levels. This remains a customer responsibility across all deployment models.
 
 ---
 
