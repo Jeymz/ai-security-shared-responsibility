@@ -10,26 +10,26 @@ This comprehensive 8x16 matrix maps security responsibilities across all deploym
 
 - **Provider**: Primary responsibility lies with the AI service provider
 - **Customer**: Primary responsibility lies with the customer organization
-- **Shared**: Responsibilities are distributed between provider and customer
+- **Shared**: Responsibilities are distributed between the provider and the customer
 - **N/A**: Domain not typically relevant for this deployment model
 
 ## Complete Responsibility Matrix
 
 | Security Domain | SaaS AI | PaaS AI | IaaS AI | On-Premises | Embedded AI | Agentic AI | AI Coding | MCP Systems |
 |-----------------|---------|---------|---------|-------------|-------------|------------|-----------|-------------|
-| **Application Security** | Shared | Customer | Customer | Customer | Shared | Shared | Customer | Customer |
-| **AI Ethics and Safety** | Provider | Shared | Customer | Customer | Provider | Shared | Provider | Customer |
-| **User Access Control** | Shared | Shared | Customer | Customer | Shared | Customer | Customer | Customer |
-| **Model Security** | Provider | Shared | Customer | Customer | Provider | Shared | Provider | Shared |
-| **Data Privacy** | Shared | Shared | Customer | Customer | Shared | Customer | Customer | Customer |
-| **Data Security** | Shared | Shared | Customer | Customer | Shared | Customer | Customer | Customer |
-| **Monitoring and Logging** | Shared | Shared | Customer | Customer | Provider | Shared | Customer | Customer |
-| **Compliance and Governance** | Shared | Shared | Customer | Customer | Shared | Customer | Customer | Customer |
-| **Supply Chain Security** | Provider | Shared | Shared | Customer | Provider | Shared | Provider | Shared |
-| **Network Security** | Provider | Shared | Customer | Customer | Provider | Customer | Customer | Customer |
-| **Infrastructure Security** | Provider | Provider | Shared | Customer | Provider | Shared | Customer | Shared |
-| **Incident Response** | Shared | Shared | Customer | Customer | Shared | Shared | Customer | Customer |
-| **Agent Governance** ★ | N/A | Shared | Customer | Customer | Shared | Customer* | N/A | Customer |
+| **Application Security** | Provider | Shared | Customer | Customer | Shared | Customer | Customer | Customer |
+| **AI Ethics and Safety** | Shared | Shared | Shared | Shared | Shared | Customer | Shared | Customer |
+| **Model Security** | Provider | Provider | Provider | Shared | Provider | Shared | Provider | Shared |
+| **User Access Control** | Customer | Customer | Customer | Customer | Customer | Customer | Customer | Customer |
+| **Data Privacy** | Shared | Shared | Shared | Customer | Shared | Customer | Customer | Customer |
+| **Data Security** | Provider | Shared | Shared | Customer | Provider | Customer | Provider | Customer |
+| **Monitoring and Logging** | Shared | Shared | Customer | Customer | Provider | Customer | Provider | Customer |
+| **Compliance and Governance** | Shared | Shared | Customer | Customer | Provider | Customer | Provider | Customer |
+| **Supply Chain Security** | Provider | Shared | Shared | Customer | Provider | Shared | Provider | Customer |
+| **Network Security** | Provider | Shared | Customer | Customer | Provider | Customer | Provider | Customer |
+| **Infrastructure Security** | Provider | Shared | Customer | Customer | Provider | Customer | Provider | Customer |
+| **Incident Response** | Shared | Shared | Customer | Customer | Shared | Customer | Shared | Customer |
+| **Agent Governance** ★ | Shared | Shared | Customer | Customer | N/A | Customer* | N/A | Customer |
 | **Code Generation Security** ★ | N/A | N/A | N/A | N/A | N/A | N/A | Customer* | N/A |
 | **Context Pollution Protection** ★ | Shared | Shared | Customer | Customer | Shared | Shared | Customer | Customer* |
 | **Multi-System Integration** ★ | Shared | Shared | Customer | Customer | Shared* | Shared | Customer | Customer* |
