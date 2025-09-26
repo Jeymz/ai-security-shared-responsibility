@@ -58,7 +58,30 @@ Domains 1-12 are traditional security areas adapted for AI systems, while domain
 
 ---
 
-### 3. User Access Control
+### 3. Model Security
+
+**Focus**: Protection of AI models from attacks and theft
+
+**Key Controls**:
+- Model encryption at rest and in transit
+- Access restrictions and authentication
+- Adversarial attack defenses
+- Model versioning and integrity
+- Intellectual property protection
+
+**Shared Responsibility Aspects**:
+- **Provider**: Base model security, platform protections
+- **Organization**: Custom model security, fine-tuning protection
+
+**AI-Specific Considerations**:
+- Model extraction prevention
+- Backdoor detection
+- Model poisoning defense
+- Weight and parameter protection
+
+---
+
+### 4. User Access Control
 
 **Focus**: Authentication and authorization for AI systems
 
@@ -80,29 +103,6 @@ Domains 1-12 are traditional security areas adapted for AI systems, while domain
 - API key management
 
 **Key Principle**: While providers may supply authentication mechanisms and IAM tools, the customer always owns the fundamental decisions about WHO in their organization gets access and at WHAT permission levels. This remains a customer responsibility across all deployment models.
-
----
-
-### 4. Model Security
-
-**Focus**: Protection of AI models from attacks and theft
-
-**Key Controls**:
-- Model encryption at rest and in transit
-- Access restrictions and authentication
-- Adversarial attack defenses
-- Model versioning and integrity
-- Intellectual property protection
-
-**Shared Responsibility Aspects**:
-- **Provider**: Base model security, platform protections
-- **Organization**: Custom model security, fine-tuning protection
-
-**AI-Specific Considerations**:
-- Model extraction prevention
-- Backdoor detection
-- Model poisoning defense
-- Weight and parameter protection
 
 ---
 
