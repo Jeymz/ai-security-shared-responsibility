@@ -246,7 +246,7 @@ AI systems that assist with software development tasks, from code generation to 
 ---
 
 ## 8. MCP-Based Systems
-> ["MCPs are other people's prompts pointing us to other people's code."](https://danielmiessler.com/blog/mcps-are-just-other-peoples-prompts-and-apis)
+> ["MCPs are other people's prompts pointing us to other people's code."](https://danielmiessler.com/blog/mcps-are-just-other-peoples-prompts-and-apis) - Daniel Miessler
 
 ### Description
 Systems built on Model Context Protocol with persistent memory and context, enabling long-term relationship management.
@@ -287,7 +287,7 @@ These products should still be evaluated from a security and legal standpoint re
 
 **Examples of AI-Enabled (background AI) products:**
 - **Otter.ai** - AI transcribes meetings automatically, but you can't interact with the AI
-- **Superhuman** - AI powers email features, but you don't prompt or control it
+- **Superhuman** - AI powers email features and writing, but you don't prompt or control it directly
 - **Grammarly** (basic) - AI checks grammar automatically, no user AI interaction
 - **Spotify** - AI creates playlists, but you don't directly engage with it
 - **LinkedIn** - AI suggests connections, but operates in the background
