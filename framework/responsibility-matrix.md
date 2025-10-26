@@ -15,7 +15,7 @@ This comprehensive 8x16 matrix maps security responsibilities across all deploym
 
 ## Complete Responsibility Matrix
 
-| Security Domain | SaaS AI | PaaS AI | IaaS AI | On-Premises | Embedded AI | Agentic AI | AI Coding | MCP Systems |
+| **Security Domain** | **SaaS AI** | **PaaS AI** | **IaaS AI** | **On-Premises** | **Embedded AI** | **Agentic AI** | **AI Coding** | **MCP Systems** |
 |-----------------|---------|---------|---------|-------------|-------------|------------|-----------|-------------|
 | **Application Security** | Provider | Shared | Customer | Customer | Shared | Customer | Customer | Customer |
 | **AI Ethics and Safety** | Shared | Shared | Shared | Shared | Shared | Customer | Shared | Customer |

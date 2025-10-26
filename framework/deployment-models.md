@@ -19,38 +19,36 @@ This document provides detailed descriptions of the eight AI deployment models c
 
 ## 1. SaaS AI Models
 
-### SaaS AI Models — Description
+**Description:**
 
 AI services consumed as software-as-a-service offerings, where the provider manages the infrastructure, model, and platform.
 
-### SaaS AI Models — Examples
+**Examples:**
 
-**Public SaaS:**
+- **Public SaaS:**
+  - ChatGPT (OpenAI)
+  - Claude (Anthropic)
+  - Gemini (Google)
+  - Perplexity
 
-- ChatGPT (OpenAI)
-- Claude (Anthropic)
-- Gemini (Google)
-- Perplexity
+- **Private SaaS:**
+  - Enterprise ChatGPT
+  - Custom organizational AI deployments
+  - Dedicated tenant instances
 
-**Private SaaS:**
-
-- Enterprise ChatGPT
-- Custom organizational AI deployments
-- Dedicated tenant instances
-
-### SaaS AI Models — Risk Profile
+**Risk Profile:**
 
 - **Public SaaS**: High risk due to shared infrastructure and limited control
 - **Private SaaS**: Moderate risk with enhanced isolation and controls
 
-### SaaS AI Models — Key Characteristics
+**Key Characteristics:**
 
 - Minimal infrastructure management required
 - Quick deployment and scaling
 - Limited customization options
 - Shared responsibility for data security
 
-### SaaS AI Models — Security Considerations
+**Security Considerations:**
 
 - Data residency and sovereignty
 - API security and rate limiting
@@ -67,7 +65,7 @@ AI services consumed as software-as-a-service offerings, where the provider mana
 
 Platform services that provide tools and infrastructure for deploying and managing AI models, offering a balance between control and convenience.
 
-### PaaS AI Models — Examples
+**Examples:**
 
 - Azure OpenAI Service
 - Google AI Platform
@@ -75,18 +73,18 @@ Platform services that provide tools and infrastructure for deploying and managi
 - IBM Watson
 - Databricks ML
 
-### PaaS AI Models — Risk Profile
+**Risk Profile:**
 
 **Moderate** - Balanced control between provider and organization with customizable security configurations.
 
-### PaaS AI Models — Key Characteristics
+**Key Characteristics:**
 
 - Model hosting and management tools
 - Integration with cloud services
 - Customizable deployment options
 - Shared infrastructure with isolation
 
-### PaaS AI Models — Security Considerations
+**Security Considerations:**
 
 - Secure model deployment pipelines
 - API gateway configuration
@@ -97,11 +95,11 @@ Platform services that provide tools and infrastructure for deploying and managi
 
 ## 3. IaaS AI Models
 
-### IaaS AI Models — Description
+**Description:**
 
 AI models deployed on cloud infrastructure services where organizations have control over the operating system and applications.
 
-### IaaS AI Models — Examples
+**Examples:**
 
 - Custom models on AWS EC2
 - AI workloads on Google Compute Engine
@@ -109,18 +107,18 @@ AI models deployed on cloud infrastructure services where organizations have con
 - GPU clusters for model training
 - Containerized AI deployments (Kubernetes)
 
-### IaaS AI Models — Risk Profile
+**Risk Profile:**
 
 **Moderate to High** - Greater organizational control and responsibility with higher potential for misconfigurations.
 
-### IaaS AI Models — Key Characteristics
+**Key Characteristics:**
 
 - Full control over compute environment
 - Custom security configurations
 - Complex management requirements
 - Flexible scaling options
 
-### IaaS AI Models — Security Considerations
+**Security Considerations:**
 
 - OS hardening and patching
 - Container security
@@ -128,7 +126,7 @@ AI models deployed on cloud infrastructure services where organizations have con
 - Secure model storage
 - GPU security considerations
 
-### IaaS AI Models — Model Security Note
+**Model Security Note:**
 
 Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT variants) rather than building and training custom models from scratch. The model provider has built-in protections against extraction attacks and other model-level vulnerabilities, while the customer handles deployment security, access controls, storage protection, and other related aspects.
 
@@ -136,11 +134,11 @@ Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT var
 
 ## 4. On-Premises AI Models
 
-### On-Premises AI Models — Description
+**Description:**
 
 AI systems deployed entirely on internal hardware within the organization's data centers.
 
-### On-Premises AI Models — Examples
+**Examples:**
 
 - Locally hosted LLMs (LLaMA, Mistral)
 - Edge AI deployments
@@ -148,18 +146,18 @@ AI systems deployed entirely on internal hardware within the organization's data
 - Private GPU clusters
 - Embedded AI in IoT devices
 
-### On-Premises AI Models — Risk Profile
+**Risk Profile:**
 
 **Variable** - Highest organizational responsibility with complete control over security measures.
 
-### On-Premises AI Models — Key Characteristics
+**Key Characteristics:**
 
 - Complete organizational control
 - No external dependencies
 - Maximum customization possible
 - Full responsibility for all aspects
 
-### On-Premises AI Models — Security Considerations
+**Security Considerations:**
 
 - Physical security
 - Hardware supply chain
@@ -167,7 +165,7 @@ AI systems deployed entirely on internal hardware within the organization's data
 - Disaster recovery planning
 - Isolated network requirements
 
-### On-Premises AI Models — Model Security Note
+**Model Security Note:**
 
 Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT variants) rather than building and training custom models from scratch. The model provider has built-in protections against extraction attacks and other model-level vulnerabilities, while the customer handles deployment security, access controls, storage protection, and other related aspects.
 
@@ -175,11 +173,11 @@ Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT var
 
 ## 5. SaaS Products with Embedded AI
 
-### SaaS Products with Embedded AI — Description
+**Description:**
 
 Traditional business applications that have added AI capabilities as features you can interact with and control. The AI is exposed as a feature you actively use, not just background functionality.
 
-### SaaS Products with Embedded AI — Examples
+**Examples:**
 
 - Salesforce Einstein (CRM where you can query AI for insights)
 - Microsoft 365 Copilot (You prompt it to generate content)
@@ -188,18 +186,18 @@ Traditional business applications that have added AI capabilities as features yo
 - Adobe Firefly (You direct AI to create/modify designs)
 - Notion AI (You prompt it to write, summarize, or analyze)
 
-### SaaS Products with Embedded AI — Risk Profile
+**Risk Profile:**
 
 **Moderate to High** - AI capabilities embedded within business processes may access broader data sets than traditional features.
 
-### SaaS Products with Embedded AI — Key Characteristics
+**Key Characteristics:**
 
 - AI seamlessly integrated into familiar tools
 - Users may not recognize AI-specific risks
 - Data exposure through AI features
 - Compliance complexity increases
 
-### SaaS Products with Embedded AI — Security Considerations
+**Security Considerations:**
 
 - AI feature access controls
 - Data classification for AI processing
@@ -211,13 +209,13 @@ Traditional business applications that have added AI capabilities as features yo
 
 ## 6. Agentic AI Systems
 
-### Agentic AI Systems — Description
+**Description:**
 
 Autonomous AI systems capable of independent decision-making and action, often working in multi-agent configurations.
 
 *Note: The definition of "agent" varies across the industry, but I think Daniel Miessler has a good definition set on [RAID (Real World AI Definitions)](https://danielmiessler.com/blog/raid-ai-definitions)
 
-### Agentic AI Systems — Examples
+**Examples:**
 
 - Multi-agent customer service systems
 - Autonomous trading algorithms
@@ -226,11 +224,11 @@ Autonomous AI systems capable of independent decision-making and action, often w
 - Robotic process automation with AI
 - Autonomous research assistants
 
-### Agentic AI Systems — Risk Profile
+**Risk Profile:**
 
 **High** - Autonomous capabilities create cascading risk potential and complex accountability challenges.
 
-### Agentic AI Systems — Key Characteristics
+**Key Characteristics:**
 
 - Independent decision-making
 - Multi-agent coordination
@@ -238,7 +236,7 @@ Autonomous AI systems capable of independent decision-making and action, often w
 - Escalation requirements
 - Audit trail complexity
 
-### Agentic AI Systems — Security Considerations
+**Security Considerations:**
 
 - Agent authority limits
 - Decision audit trails
@@ -251,11 +249,11 @@ Autonomous AI systems capable of independent decision-making and action, often w
 
 ## 7. AI Coding Assistants
 
-### AI Coding Assistants — Description
+**Description:**
 
 AI systems that assist with software development tasks, from code generation to debugging and documentation.
 
-### AI Coding Assistants — Examples
+**Examples:**
 
 - GitHub Copilot
 - Cursor
@@ -265,11 +263,11 @@ AI systems that assist with software development tasks, from code generation to 
 - Replit Ghostwriter
 - JetBrains AI Assistant
 
-### AI Coding Assistants — Risk Profile
+**Risk Profile:**
 
 **Moderate to High** - Code generation may introduce vulnerabilities and intellectual property concerns.
 
-### AI Coding Assistants — Key Characteristics
+**Key Characteristics:**
 
 - Real-time code suggestions
 - Context-aware completions
@@ -277,7 +275,7 @@ AI systems that assist with software development tasks, from code generation to 
 - Integration with IDEs
 - Learning from codebase patterns
 
-### AI Coding Assistants — Security Considerations
+**Security Considerations:**
 
 - Secure coding practices enforcement
 - Intellectual property protection
@@ -293,11 +291,11 @@ AI systems that assist with software development tasks, from code generation to 
 
 > ["MCPs are other people's prompts pointing us to other people's code."](https://danielmiessler.com/blog/mcps-are-just-other-peoples-prompts-and-apis) - Daniel Miessler
 
-### MCP-Based Systems — Description
+**Description:**
 
 Systems built on Model Context Protocol with persistent memory and context, enabling long-term relationship management.
 
-### MCP-Based Systems — Examples
+**Examples:**
 
 - Enterprise knowledge management systems
 - Customer relationship management with AI memory
@@ -305,11 +303,11 @@ Systems built on Model Context Protocol with persistent memory and context, enab
 - Research assistant systems
 - Personal AI assistants with memory
 
-### MCP-Based Systems — Risk Profile
+**Risk Profile:**
 
 **High** - Long-term data persistence and complex integrations create ongoing exposure risks.
 
-### MCP-Based Systems — Key Characteristics
+**Key Characteristics:**
 
 - Persistent memory across sessions
 - Context accumulation over time
@@ -317,7 +315,7 @@ Systems built on Model Context Protocol with persistent memory and context, enab
 - Persona-based interactions
 - Relationship tracking
 
-### MCP-Based Systems — Security Considerations
+**Security Considerations:**
 
 - Memory integrity protection
 - Context pollution prevention

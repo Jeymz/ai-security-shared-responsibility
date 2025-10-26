@@ -26,12 +26,12 @@ Whether you're using ChatGPT, building custom models, or deploying autonomous ag
 
 ## Quick Start
 
-| If you are a... | Start here | Focus on |
+| **If you are...** | **Start here** | **Focus on** |
 |---|---|---|
-| Security Leader | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
-| AI Practitioner | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
-| Architect | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
-| Getting Started | [This Section](#getting-started) | Step-by-step implementation guide |
+| **A Security Leader** | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
+| **An AI Practitioner** | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
+| **An Architect** | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
+| **Just Getting Started** | [Getting Started Guide](#getting-started) | Step-by-step implementation guide |
 
 ## Why This Framework vs Others
 
@@ -50,11 +50,11 @@ Other frameworks assume you already know your deployment model and have organiza
 
 ### Core Components
 
-| Component | What It Covers | Key Insight |
+| **Component** | **What It Covers** | **Key Insight** |
 |---|---|---|
-| [8 Deployment Models](framework/deployment-models.md) | From SaaS to on-premises, agents to assistants | Each model has distinct security boundaries |
-| [16 Security Domains](framework/security-domains.md) | Traditional + AI-specific (marked with ★) | New domains like agent governance are critical now |
-| [Responsibility Matrix](framework/responsibility-matrix.md) | Complete 8x16 mapping | Visual guide to all responsibilities |
+| **[8 Deployment Models](framework/deployment-models.md)** | From SaaS to on-premises, agents to assistants | Each model has distinct security boundaries |
+| **[16 Security Domains](framework/security-domains.md)** | Traditional + AI-specific (marked with ★) | New domains like agent governance are critical now |
+| **[Responsibility Matrix](framework/responsibility-matrix.md)** | Complete 8x16 mapping | Visual guide to all responsibilities |
 
 ### Key Principles
 
