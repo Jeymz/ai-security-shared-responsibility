@@ -1,0 +1,27 @@
+{
+  "name": "ai-security-shared-responsibility",
+  "version": "1.1.0",
+  "description": "AI Security Shared Responsibility Model",
+  "main": "index.js",
+  "scripts": {
+    "lint": "markdownlint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeymz/ai-security-shared-responsibility.git"
+  },
+  "keywords": [
+    "security",
+    "ai",
+    "model"
+  ],
+  "author": "Mike Privette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeymz/ai-security-shared-responsibility/issues"
+  },
+  "homepage": "https://github.com/Jeymz/ai-security-shared-responsibility#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0"
+  }
+}

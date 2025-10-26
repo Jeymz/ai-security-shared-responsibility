@@ -6,7 +6,7 @@ This comprehensive 8x16 matrix maps security responsibilities across all deploym
 
 ## Quick Reference
 
-### Responsibility Levels
+**Responsibility Levels:**
 
 - **Provider**: Primary responsibility lies with the AI service provider
 - **Customer**: Primary responsibility lies with the customer organization
@@ -40,13 +40,15 @@ This comprehensive 8x16 matrix maps security responsibilities across all deploym
 
 When marked as "Shared", responsibilities typically divide as follows:
 
-### Provider Responsibilities
+**Provider Responsibilities:**
+
 - Platform-level security controls
 - Base infrastructure and features
 - Core compliance certifications
 - Model and service updates
 
-### Customer Responsibilities
+**Customer Responsibilities:**
+
 - Configuration and implementation
 - Data governance and classification
 - Usage policies and procedures
@@ -54,18 +56,21 @@ When marked as "Shared", responsibilities typically divide as follows:
 
 ## Key Patterns
 
-### By Control Level
+**By Control Level:**
+
 - **Most Provider Control**: SaaS AI, Embedded AI
 - **Balanced Control**: PaaS AI, Agentic AI
 - **Most Customer Control**: IaaS AI, On-Premises, MCP Systems
 
-### By Complexity
+**By Complexity:**
+
 - **Simplest**: SaaS AI (but still requires customer security efforts)
 - **Moderate**: PaaS AI, Embedded AI
 - **Complex**: IaaS AI, Agentic AI, AI Coding, MCP Systems
 - **Most Complex**: On-Premises (full stack ownership)
 
-### Critical Focus Areas by Deployment Model
+**Critical Focus Areas by Deployment Model:**
+
 - **Agentic AI**: Agent Governance requires special attention
 - **AI Coding**: Code Generation Security is essential
 - **MCP Systems**: Context Pollution and Multi-System Integration are critical
@@ -73,25 +78,29 @@ When marked as "Shared", responsibilities typically divide as follows:
 
 ## Quick Decision Guide
 
-### Choose SaaS AI when:
+**Choose SaaS AI when:**
+
 - Quick deployment is priority
 - Limited security resources
 - Standard use cases
 - Acceptable to share infrastructure
 
-### Choose PaaS AI when:
+**Choose PaaS AI when:**
+
 - Need customization
 - Have security expertise
 - Require specific integrations
 - Want balanced control
 
-### Choose IaaS AI when:
+**Choose IaaS AI when:**
+
 - Need full control over models
 - Have strong security team
 - Require specific configurations
 - Custom deployment requirements
 
-### Choose On-Premises when:
+**Choose On-Premises when:**
+
 - Maximum control required
 - Air-gapped environments
 - Regulatory requirements

@@ -1,18 +1,12 @@
-<div align="center">
-
-<img src="./resources/images/AI Shared Responsibility Model.png" alt="AI Security Shared Responsibility Model Matrix" width="800"/>
-
 # AI Security Shared Responsibility Model
 
-![Static Badge](https://img.shields.io/badge/mission-Clarify_AI_Security_Ownership-8B5CF6)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/mikeprivette/ai-security-shared-responsibility/releases)
+![mission badge](https://img.shields.io/badge/mission-Clarify_AI_Security_Ownership-8B5CF6) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/mikeprivette/ai-security-shared-responsibility/releases)
 
-### Clear security ownership for every AI deployment model
+![AI Security Shared Responsibility Model Matrix](resources/images/AI%20Shared%20Responsibility%20Model.png)
+
+## Clear security ownership for every AI deployment model
 
 **[Quick Start](#quick-start) • [Framework](#the-framework) • [Deployment Models](#8-deployment-models) • [Security Domains](#16-security-domains) • [About](#about)**
-
-</div>
 
 ---
 
@@ -32,16 +26,12 @@ Whether you're using ChatGPT, building custom models, or deploying autonomous ag
 
 ## Quick Start
 
-<div align="center">
-
-| **If you are a...** | **Start here** | **Focus on** |
-|:---:|:---:|:---|
-| **Security Leader** | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
-| **AI Practitioner** | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
-| **Architect** | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
-| **Getting Started** | [This Section](#getting-started) | Step-by-step implementation guide |
-
-</div>
+| If you are a... | Start here | Focus on |
+|---|---|---|
+| Security Leader | [Responsibility Matrix](framework/responsibility-matrix.md) | Understanding your obligations across all AI initiatives |
+| AI Practitioner | [Deployment Models](framework/deployment-models.md) | Identifying which model fits your use case |
+| Architect | [Security Domains](framework/security-domains.md) | Comprehensive security coverage areas |
+| Getting Started | [This Section](#getting-started) | Step-by-step implementation guide |
 
 ## Why This Framework vs Others
 
@@ -60,15 +50,11 @@ Other frameworks assume you already know your deployment model and have organiza
 
 ### Core Components
 
-<div align="center">
-
-| **Component** | **What It Covers** | **Key Insight** |
-|:---:|:---|:---|
-| **[8 Deployment Models](framework/deployment-models.md)** | From SaaS to on-premises, agents to assistants | Each model has distinct security boundaries |
-| **[16 Security Domains](framework/security-domains.md)** | Traditional + AI-specific (marked with ★) | New domains like agent governance are critical now |
-| **[Responsibility Matrix](framework/responsibility-matrix.md)** | Complete 8x16 mapping | Visual guide to all responsibilities |
-
-</div>
+| Component | What It Covers | Key Insight |
+|---|---|---|
+| [8 Deployment Models](framework/deployment-models.md) | From SaaS to on-premises, agents to assistants | Each model has distinct security boundaries |
+| [16 Security Domains](framework/security-domains.md) | Traditional + AI-specific (marked with ★) | New domains like agent governance are critical now |
+| [Responsibility Matrix](framework/responsibility-matrix.md) | Complete 8x16 mapping | Visual guide to all responsibilities |
 
 ### Key Principles
 
@@ -89,16 +75,18 @@ Other frameworks assume you already know your deployment model and have organiza
 Comprehensive coverage from simple SaaS to complex autonomous systems:
 
 ### Cloud-Based Models
-1. **SaaS AI Models** - ChatGPT, Claude, Gemini (Public & Private)
-2. **PaaS AI Models** - Azure OpenAI, AWS Bedrock, Google AI Platform
-3. **IaaS AI Models** - Custom models on cloud infrastructure
+
+- **SaaS AI Models** — ChatGPT, Claude, Gemini (Public & Private)
+- **PaaS AI Models** — Azure OpenAI, AWS Bedrock, Google AI Platform
+- **IaaS AI Models** — Custom models on cloud infrastructure
 
 ### Self-Managed & Specialized
-4. **On-Premises AI Models** - Local LLMs, air-gapped systems
-5. **SaaS Products with Embedded AI** - Salesforce Einstein, MS Copilot
-6. **Agentic AI Systems** - Autonomous multi-agent configurations
-7. **AI Coding Assistants** - GitHub Copilot, Cursor, Claude Code
-8. **MCP-Based Systems** - Persistent memory & context systems
+
+- **On-Premises AI Models** — Local LLMs, air-gapped systems
+- **SaaS Products with Embedded AI** — Salesforce Einstein, MS Copilot
+- **Agentic AI Systems** — Autonomous multi-agent configurations
+- **AI Coding Assistants** — GitHub Copilot, Cursor, Claude Code
+- **MCP-Based Systems** — Persistent memory & context systems
 
 [→ Full deployment models guide](framework/deployment-models.md)
 
@@ -106,7 +94,8 @@ Comprehensive coverage from simple SaaS to complex autonomous systems:
 
 Comprehensive coverage across traditional and emerging AI security areas:
 
-**Traditional Domains (1-12)**
+### Traditional Domains (1-12)
+
 - Application Security
 - AI Ethics and Safety
 - Model Security
@@ -120,11 +109,12 @@ Comprehensive coverage across traditional and emerging AI security areas:
 - Infrastructure Security
 - Incident Response
 
-**Emerging AI Domains (13-16)** ★
-- **Agent Governance** - Control of autonomous AI agents
-- **Code Generation Security** - AI-generated code protection
-- **Context Pollution Protection** - Preventing false information injection
-- **Multi-System Integration Security** - Cross-system AI orchestration
+### Emerging AI Domains (13-16) ★
+
+- **Agent Governance** — Control of autonomous AI agents
+- **Code Generation Security** — AI-generated code protection
+- **Context Pollution Protection** — Preventing false information injection
+- **Multi-System Integration Security** — Cross-system AI orchestration
 
 [→ Full security domains guide](framework/security-domains.md)
 
@@ -133,6 +123,7 @@ Securing an AI system is a multi-faceted challenge that requires attention to va
 ## Contributing
 
 This framework improves with real-world input. Looking for:
+
 - Implementation experiences
 - Framework improvements
 - Templates and tools

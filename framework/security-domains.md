@@ -17,6 +17,7 @@ Domains 1-12 are traditional security areas adapted for AI systems, while domain
 **What This Actually Means**: This is about securing the actual application that uses AI - the websites, APIs, and interfaces that users interact with. It covers everything from input validation to protecting against attacks targeting the application layer.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI secures ChatGPT's web interface and API endpoints completely
 - **PaaS AI**: You configure API rate limits and input validation on Azure OpenAI Service
 - **IaaS AI**: You build and secure the entire application layer on AWS EC2
@@ -27,6 +28,7 @@ Domains 1-12 are traditional security areas adapted for AI systems, while domain
 - **MCP Systems**: You protect context system interfaces and access points
 
 **Responsibility Varies**:
+
 - **Provider (SaaS)**: Platform owns the application completely
 - **Shared (PaaS, Embedded)**: Provider supplies platform security, customer configures usage
 - **Customer (IaaS, On-Premises, Agentic, AI Coding, MCP)**: You own all application security
@@ -43,6 +45,7 @@ The main challenge shifts from basic security (in SaaS) to comprehensive applica
 **What This Actually Means**: This covers both the ethical design of AI systems and their safe usage. It's about ensuring AI doesn't cause harm, perpetuate bias, or get used for inappropriate purposes - a responsibility that can't be fully outsourced.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI prevents harmful outputs, but you choose appropriate use cases
 - **PaaS AI**: Azure provides safety controls, you implement ethical guidelines
 - **IaaS AI**: You configure all safety measures and ethical boundaries on your models
@@ -53,6 +56,7 @@ The main challenge shifts from basic security (in SaaS) to comprehensive applica
 - **MCP Systems**: You own ethical use of persistent memory and long-term context
 
 **Responsibility Varies**:
+
 - **Shared (SaaS, PaaS, IaaS, On-Premises, Embedded, AI Coding)**: Providers ensure base model safety, customers ensure appropriate usage
 - **Customer (Agentic, MCP)**: Critical autonomous and persistent systems require full customer ownership
 
@@ -68,6 +72,7 @@ Ethics and safety are inherently shared because providers ensure base model safe
 **What This Actually Means**: This is about protecting the AI model itself - preventing extraction, poisoning, or manipulation. It includes securing model weights, preventing adversarial attacks, and protecting intellectual property.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI protects GPT models from extraction and attacks
 - **PaaS AI**: Azure protects base models, you secure any fine-tuning
 - **IaaS AI**: Provider-supplied models (LLaMA, Mistral) come with built-in protections
@@ -78,6 +83,7 @@ Ethics and safety are inherently shared because providers ensure base model safe
 - **MCP Systems**: Complex memory model protection shared with provider
 
 **Responsibility Varies**:
+
 - **Provider (SaaS, PaaS, IaaS, Embedded, AI Coding)**: Provider protects base models
 - **Shared (On-Premises, Agentic, MCP)**: Provider supplies secure models, customer handles deployment
 
@@ -93,6 +99,7 @@ Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT var
 **What This Actually Means**: This is about controlling who in your organization can access AI systems and at what permission level. It's fundamentally about organizational decisions - who should have access to what.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: You decide who gets ChatGPT Enterprise licenses and permissions
 - **PaaS AI**: You configure who can access Azure OpenAI in your organization
 - **IaaS AI**: You implement complete IAM for your AI infrastructure
@@ -103,6 +110,7 @@ Most organizations deploy pre-trained foundation models (LLaMA, Mistral, GPT var
 - **MCP Systems**: You control access to persistent memory and context systems
 
 **Responsibility Varies**:
+
 - **Customer (All Models)**: Access control is always a customer responsibility
 
 **Key Considerations**:
@@ -117,6 +125,7 @@ While providers may supply authentication mechanisms and IAM tools, the customer
 **What This Actually Means**: This covers how personal and sensitive data is handled when processed by AI systems. It includes consent, data minimization, and compliance with privacy regulations like GDPR.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: ChatGPT processes data per OpenAI policies, you ensure consent
 - **PaaS AI**: Azure provides privacy controls, you implement data governance
 - **IaaS AI**: You implement all privacy controls for data processing
@@ -127,6 +136,7 @@ While providers may supply authentication mechanisms and IAM tools, the customer
 - **MCP Systems**: Critical - long-term memory requires careful privacy management
 
 **Responsibility Varies**:
+
 - **Shared (SaaS, PaaS, IaaS, Embedded)**: Provider handles platform privacy, customer manages data classification and consent
 - **Customer (On-Premises, Agentic, AI Coding, MCP)**: Full privacy control and responsibility
 
@@ -142,6 +152,7 @@ Privacy responsibilities depend on who processes the data and for what purpose. 
 **What This Actually Means**: This is about protecting data at rest and in transit - encryption, access controls, and preventing data loss. It covers both the data fed into AI systems and the outputs they generate.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI handles all encryption and storage security
 - **PaaS AI**: Azure provides encryption tools, you configure data handling
 - **IaaS AI**: Cloud provider supplies infrastructure encryption, you implement the rest
@@ -152,6 +163,7 @@ Privacy responsibilities depend on who processes the data and for what purpose. 
 - **MCP Systems**: You protect all persistent context data
 
 **Responsibility Varies**:
+
 - **Provider (SaaS, Embedded, AI Coding)**: Full platform data security
 - **Shared (PaaS, IaaS)**: Provider supplies tools, customer configures
 - **Customer (On-Premises, Agentic, MCP)**: Complete data security ownership
@@ -168,6 +180,7 @@ Data security in AI includes unique challenges like vector database protection, 
 **What This Actually Means**: This is about tracking what's happening in your AI systems - who's using them, how they're being used, and detecting when something goes wrong. It's essential for both security and compliance.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI monitors ChatGPT, provides usage reports
 - **PaaS AI**: Azure provides monitoring tools, you analyze AI usage patterns
 - **IaaS AI**: You implement complete monitoring for your AI infrastructure
@@ -178,6 +191,7 @@ Data security in AI includes unique challenges like vector database protection, 
 - **MCP Systems**: You monitor context evolution and memory changes
 
 **Responsibility Varies**:
+
 - **Provider (Embedded, AI Coding)**: Provider handles monitoring
 - **Shared (SaaS, PaaS)**: Provider generates logs, customer must analyze for their use cases
 - **Customer (IaaS, On-Premises, Agentic, MCP)**: Complete monitoring ownership
@@ -194,6 +208,7 @@ AI-specific monitoring includes tracking model drift, unusual query patterns, to
 **What This Actually Means**: This covers meeting regulatory requirements (like GDPR, HIPAA, or the EU AI Act) and internal governance policies. It includes documentation, audit trails, and demonstrating compliance.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI provides compliance certifications for the platform
 - **PaaS AI**: Azure offers compliance tools, you implement organizational policies
 - **IaaS AI**: You ensure all compliance for your AI deployment
@@ -204,6 +219,7 @@ AI-specific monitoring includes tracking model drift, unusual query patterns, to
 - **MCP Systems**: You manage long-term data governance and retention compliance
 
 **Responsibility Varies**:
+
 - **Provider (Embedded, AI Coding)**: Platform compliance certifications
 - **Shared (SaaS, PaaS)**: Provider certifies platform, customer ensures organizational compliance
 - **Customer (IaaS, On-Premises, Agentic, MCP)**: Full compliance responsibility
@@ -220,6 +236,7 @@ Compliance in AI includes emerging regulations like the EU AI Act, alongside tra
 **What This Actually Means**: This covers the security of all components that make up your AI system - from models and training data to libraries and dependencies. It's about knowing and trusting what goes into your AI stack.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI manages all dependencies and model provenance
 - **PaaS AI**: Azure manages platform components, you handle custom additions
 - **IaaS AI**: Cloud provider supplies secure infrastructure, you manage the AI stack
@@ -230,6 +247,7 @@ Compliance in AI includes emerging regulations like the EU AI Act, alongside tra
 - **MCP Systems**: You vet all plugins and extensions in the context system
 
 **Responsibility Varies**:
+
 - **Provider (SaaS, Embedded, AI Coding)**: Complete supply chain management
 - **Shared (PaaS, IaaS, Agentic)**: Split between platform and custom components
 - **Customer (On-Premises, MCP)**: Full supply chain responsibility
@@ -246,6 +264,7 @@ AI supply chain includes unique elements like model provenance, training data so
 **What This Actually Means**: This covers securing how AI systems communicate - API calls, model serving endpoints, and data transfers. It includes firewalls, encryption in transit, and DDoS protection.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI secures all ChatGPT network infrastructure
 - **PaaS AI**: Azure provides network backbone, you configure virtual networks
 - **IaaS AI**: You configure all network security for your AI systems
@@ -256,6 +275,7 @@ AI supply chain includes unique elements like model provenance, training data so
 - **MCP Systems**: You protect all API endpoints and context system communications
 
 **Responsibility Varies**:
+
 - **Provider (SaaS, Embedded, AI Coding)**: Complete network security
 - **Shared (PaaS)**: Provider supplies infrastructure, customer configures
 - **Customer (IaaS, On-Premises, Agentic, MCP)**: Full network security ownership
@@ -272,6 +292,7 @@ AI-specific network security includes protecting model serving endpoints, securi
 **What This Actually Means**: This is about securing the physical and virtual infrastructure that AI runs on - servers, GPUs, storage systems, and virtualization layers. It includes everything from physical security to container isolation.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI secures all infrastructure for ChatGPT
 - **PaaS AI**: Azure secures physical infrastructure, you configure virtual resources
 - **IaaS AI**: Cloud provider secures hardware, you manage VMs and containers
@@ -282,6 +303,7 @@ AI-specific network security includes protecting model serving endpoints, securi
 - **MCP Systems**: You secure infrastructure for persistent context storage
 
 **Responsibility Varies**:
+
 - **Provider (SaaS, PaaS, Embedded, AI Coding)**: Physical infrastructure and platform
 - **Customer (IaaS, On-Premises, Agentic, MCP)**: Virtual infrastructure and above
 
@@ -297,6 +319,7 @@ AI infrastructure has unique requirements including GPU security, high-memory sy
 **What This Actually Means**: This is about what happens when something goes wrong - detecting incidents, responding quickly, and learning from them. It includes having plans, communication protocols, and recovery procedures.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: OpenAI handles platform incidents, notifies you of impacts
 - **PaaS AI**: Azure responds to platform issues, you handle application incidents
 - **IaaS AI**: You manage all incident response for your AI systems
@@ -307,6 +330,7 @@ AI infrastructure has unique requirements including GPU security, high-memory sy
 - **MCP Systems**: You handle all context system compromise incidents
 
 **Responsibility Varies**:
+
 - **Shared (SaaS, PaaS, Embedded, AI Coding)**: Coordination required between provider and customer
 - **Customer (IaaS, On-Premises, Agentic, MCP)**: Full incident response ownership
 
@@ -322,6 +346,7 @@ AI-specific incidents include model compromise, data poisoning, prompt injection
 **What This Actually Means**: This is about managing AI systems that can take actions autonomously - setting boundaries, requiring approvals for certain actions, and maintaining human oversight. It's critical for systems that can make decisions or take actions without human intervention.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: ChatGPT plugins require governance of automated actions
 - **PaaS AI**: Azure AI agents need configured boundaries and oversight
 - **IaaS AI**: You define all governance for custom agent deployments
@@ -332,6 +357,7 @@ AI-specific incidents include model compromise, data poisoning, prompt injection
 - **MCP Systems**: You govern how persistent context influences decisions
 
 **Responsibility Varies**:
+
 - **Shared (SaaS, PaaS)**: Provider supplies controls, customer sets policies
 - **Customer (IaaS, On-Premises, Agentic, MCP)**: Full governance responsibility
 - **N/A (Embedded, AI Coding)**: Not typically applicable
@@ -348,6 +374,7 @@ Agent governance requires defining acceptable autonomous actions, establishing e
 **What This Actually Means**: This is about ensuring AI-generated code is secure, compliant, and doesn't introduce vulnerabilities. It includes reviewing generated code, checking licenses, and preventing sensitive data exposure.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: N/A - Not primarily for code generation
 - **PaaS AI**: N/A - Not typically used for code generation
 - **IaaS AI**: N/A - Infrastructure focus, not code generation
@@ -358,6 +385,7 @@ Agent governance requires defining acceptable autonomous actions, establishing e
 - **MCP Systems**: N/A - Context systems don't generate code
 
 **Responsibility Varies**:
+
 - **Customer (AI Coding)**: Full responsibility for code security and review
 - **N/A (All others)**: Not applicable to these deployment models
 
@@ -373,6 +401,7 @@ Code generation security is unique to AI coding assistants. Key challenges inclu
 **What This Actually Means**: Think of this as protecting the AI's "understanding" from being corrupted. It's like prompt injection but broader, and includes any attempt to pollute what the AI knows or believes.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: Attacker tries to make ChatGPT believe false "facts" through conversation manipulation
 - **PaaS AI**: Someone poisons your fine-tuning dataset on Azure OpenAI
 - **IaaS AI**: Malicious data inserted into your vector database affecting RAG responses
@@ -383,6 +412,7 @@ Code generation security is unique to AI coding assistants. Key challenges inclu
 - **MCP Systems**: Critical - poisoned context persists across all future sessions
 
 **Responsibility Varies**:
+
 - **Shared (SaaS, PaaS, Embedded, Agentic)**: Providers offer input filters, customers must validate use cases
 - **Customer (IaaS, On-Premises, AI Coding, MCP)**: You control the full stack and all protections
 
@@ -398,6 +428,7 @@ The main challenge is detecting sophisticated manipulation while maintaining mem
 **What This Actually Means**: This is about securing the connections when AI systems talk to other systems - both AI and traditional. It covers API security, data flow protection, and managing the complexity of integrated systems.
 
 **Examples by Deployment Model**:
+
 - **SaaS AI**: ChatGPT calling plugins or external APIs needs secure integration
 - **PaaS AI**: Azure OpenAI connecting to your databases and applications
 - **IaaS AI**: Your custom models integrating with other services
@@ -408,6 +439,7 @@ The main challenge is detecting sophisticated manipulation while maintaining mem
 - **MCP Systems**: Critical - multiple context sources and system connections
 
 **Responsibility Varies**:
+
 - **Shared (SaaS, PaaS, Embedded, Agentic)**: Provider supplies integration tools, customer secures usage
 - **Customer (IaaS, On-Premises, AI Coding, MCP)**: Full integration security ownership
 
